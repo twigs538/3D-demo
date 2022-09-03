@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<title>55869653 COS3712 Assignment 1</title>
+	<meta name="author" content="Tshepiso Moloko 55869653" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet" />
+	<link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+
+	<!-- Scene rotation control container -->
+	<div id="scene-controls-container">
+		<div>
+			<label><strong>Scene Controls:</strong></label>
+			<label>Zoom: -</label>
+			<div><input id="scene-zoom-control" type="range" min="0.2" max="3.5" step="0.01" /></div>
+			<label>+ <span id="scene-zoom-value-text"></span></label>
+			<div>
+				<button id="move-vehicle-button">Move Vehicle</button>
+			</div>
+            <div>
+				<button id="scene-toggle-button">Toggle Scene</button>
+            </div>
+		</div>
+	</div>
+	
+	<!-- three.js and assignment JavaScript -->
+	<script type="text/javascript" src="./scripts/three.min.js"></script>
+	<script type="text/javascript" src="./scripts/texture.data.js"></script>
+	<script type="text/javascript" src="./scripts/55869653Assignment2.js"></script>
+    
+</body>
+</html>
